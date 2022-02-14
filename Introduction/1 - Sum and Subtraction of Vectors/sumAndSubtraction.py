@@ -24,5 +24,5 @@ p2 = Point(x2,y2)
 result1 = p1.sum(p2)
 result2 = p1.sub(p2)
 
-print(f'The sum of p1 and p2 is : x = {result1.x} and y = {result1.y}')
-print(f'The difference of p1 and p2 is : x = {result2.x} and y = {result2.y}')
+print(f'The result vector of the sum of p1 and p2 is: x =  {result1.x}, y = {result1.y}')
+print(f'The result vector of the difference of p1 and p2 is: x = {result2.x}, y = {result2.y}')

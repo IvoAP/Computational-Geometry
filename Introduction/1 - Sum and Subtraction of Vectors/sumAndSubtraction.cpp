@@ -31,8 +31,8 @@ int main(){
     Point result1  = p1.sum(p2);
     Point result2 = p1.diff(p2);
 
-    cout << "The sum of p1 and p2 is: " <<   result1.x << " y: " << result1.y << endl;
-    cout << "The difference of p1 and p2 is: " << result2.x << " y: " << result2.y << endl;
+    cout << "The result vector of the sum of p1 and p2 is: x =  " <<   result1.x << ", y = " << result1.y << endl;
+    cout << "The result vector of the difference of p1 and p2 is: x =  " <<   result2.x << ", y = " << result2.y << endl;
     
     return 0;
 }
